@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="sideBar">
+        <div class="btn-expand">
+            <i class="bi bi-list"></i>
+        </div>
+        <ul>
+            <li class="item-menu">
+                <a href="index.html">
+                    <span class="icon"><i class="bi bi-house-door"></i></span>
+                    <span class="txt-link">HOME</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="register.html">
+                    <span class="icon"><i class="bi bi-r-square"></i></span>
+                    <span class="txt-link">REGISTER USER</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="catalog.html">
+                    <span class="icon"><i class="bi bi-house-heart-fill"></i></span>
+                    <span class="txt-link">CATALOG</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="main.html">
+                    <span class="icon"><i class="bi bi-file-earmark-plus"></i></span>
+                    <span class="txt-link">ADD</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <div class="catalog-box">
+            <h1>All Houses</h1>
+
+            <table id="houseTable">
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Province</th>
+                        <th>AC</th>
+                        <th>House Price</th>
+                        <th>Rent Price</th>
+                        <th>Rooms</th>
+                        <th>Favorite</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- IMPORTANTE: script no final -->
+    <script src="js/catalog.js"></script>
+</body>
+
+</html>
